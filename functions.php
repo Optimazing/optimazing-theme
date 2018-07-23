@@ -159,3 +159,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/* Cargar sitio como AMP */
+add_theme_support( 'amp' );
